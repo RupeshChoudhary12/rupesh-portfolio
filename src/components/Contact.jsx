@@ -4,6 +4,8 @@ import emailjs from '@emailjs/browser';
 import gmail from '../assets/gmail.png'
 import phone from '../assets/phone.png'
 import place from '../assets/placeholder.png'
+import linkedin from '../assets/linkedin.png'
+import github from "../assets/github.png"
 
 const Contact = () => {
   const form = useRef();
@@ -93,7 +95,7 @@ const Contact = () => {
             <div className="github">
             <span>
                 {" "}
-                <a href="https://www.linkedin.com/in/rupeshchoudhary10/"> <img  src="src\assets\linkedin.png" alt="" /></a>
+                <a href="https://www.linkedin.com/in/rupeshchoudhary10/"> <img  src={linkedin} alt="" /></a>
                 
               </span>
             </div>
@@ -101,7 +103,7 @@ const Contact = () => {
               <span>
                 {" "}
                 <a href=" https://github.com/RupeshChoudhary12
-"><img src="src\assets\github.png" alt="" /></a>
+"><img src={github} alt="" /></a>
                 
               </span>
             </div>
